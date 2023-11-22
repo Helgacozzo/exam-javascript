@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
 
             ul.appendChild(li);
 
-            input.value = '';
+            input.value = ''; // Non era richiesto lo svuotamento dell'input all'invio, ma ho pensato diventasse più 'ordinato' il tutto
             
         }
 
