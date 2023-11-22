@@ -6,6 +6,7 @@ window.addEventListener('load', () => {
     const ul = document.getElementById("tasks");
 
     button.addEventListener("click", () => {
+        
         const inputValue = input.value;
 
         if (inputValue === '') {
