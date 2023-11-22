@@ -2,7 +2,7 @@
 
 const concatenateStrings = (array) => {
 
-    const startWithA = array.filter(str => str.includes('a') || str.includes('A'));
+    const startWithA = array.filter(str => str.startsWith('a') || str.startsWith('A'));
 
     let concatenatedString = '';
     startWithA.forEach(str => {
